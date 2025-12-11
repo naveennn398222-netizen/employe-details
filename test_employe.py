@@ -1,8 +1,8 @@
 from employe import employee_details
 def test_employee_details():
     expected_output=(
-        "Employee name:furkhan\n"
-        "Employee id:E1001\n"
+        "name:furkhan\n"
+        "emp_id:E1001\n"
         "department:kitchen\n"
         "salary:250\n"
 
