@@ -1,9 +1,9 @@
 def employee_details(name, emp_id, department, salary):
     result = (
-        f"Employee Name: {name}\n"
-        f"Employee ID: {emp_id}\n"
-        f"Department  : {department}\n"
-        f"Salary      : {salary}"
+        f"name: {name}\n"
+        f"emp_id: {emp_id}\n"
+        f"department{department}\n"
+        f"salary: {salary}"
     )
     return result
 if __name__ == "__main__":
