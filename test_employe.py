@@ -1,10 +1,10 @@
-from employe import employee_details
-def test_employee_details():
+from bank import bank_details
+def test_bank_details():
     expected_output=(
-        "name:furkhan\n"
-        "emp_id:E1001\n"
-        "department:kitchen\n"
-        "salary:250\n"
+        "accountnumber:1234567\n"
+        "accountholdername:naveen\n"
+        "accounttype:savings\n"
+        "balance:10000\n"
 
     )
-    assert employee_details("furkhan","E1001","kitchen",250)==expected_output
+    assert bank_details("1234567","naveen","savings",10000)==expected_output
